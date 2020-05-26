@@ -14,7 +14,7 @@ yum install java-1.8.0
   echo $(/opt/apache-tomcat-9.0.35/bin/./startup.sh)
   if [ $? = 0 ]
   then
-    echo" tomcat installed successfully"
+    echo " tomcat installed successfully"
   else
     echo " Unable to install tomcat"
   fi
